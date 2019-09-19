@@ -23,9 +23,8 @@ https://microbit-micropython.readthedocs.io/en/latest/i2c.html#microbit.i2c.scan
 >>> i2c.scan()
 ```
 
-What results are you getting? And how many?
-
-Make a note of these addresses as we will use them soon.
+- What results are you getting? And how many?
+- Make a note of these addresses as we will use them soon.
 
 
 ## I2C addresses
@@ -50,7 +49,7 @@ format used by all the methods in the MicroPython I2C class.
 The I2C address of the accelerometer can be found in the datasheet, in one of
 the tables from section 5.8 "Serial I2C Interface".
 
-Does the number listed in the datasheet match one of the values returned by
+- Does the number listed in the datasheet match one of the values returned by
 `i2c.scan()`?
 
 
@@ -91,7 +90,10 @@ the datasheet.
 
 ### Troubleshooting
 
-Did it work? Are you reading value `0xFF`? This is because this device requires
-the read operation to be sent immediately after the write operation without
-interruption (i.e. without a stop bit). Can you find a way in the I2C
-documentation to not send a stop bit before the read operation?
+Did it work? Are you reading value `0xFF`?
+
+This is because this device requires the read operation to be sent immediately
+after the write operation without interruption (i.e. without a stop bit).
+
+- Can you find a way in the I2C documentation to not send a stop bit before
+  the read operation?

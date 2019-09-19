@@ -11,7 +11,7 @@ https://microbit-micropython.readthedocs.io/en/latest/accelerometer.html
 
 So we should expect values between 0 and 2000, right?
 
-When you rotate the micro:bit (without shaking it angrily!) what kind of
+- When you rotate the micro:bit (without shaking it angrily!) what kind of
 maximum values do you see?
 
 ```python
@@ -44,8 +44,8 @@ while True:
 Because the values stored in the registers represent a value within a range from
 0 to 2g (as this is the default max range configured in the MMA8653FC part).
 
-So, assuming you are only reading the MSB register (8-bits), maximum register
-value is 255 and that represents 2000mg.
+So, assuming you are only reading the MSB register (8-bits), the maximum
+register value will represent 2000mg.
 
 - What can we do to change the range from 0-255 to 0-2000?
 - Does that give us the right result all the time?

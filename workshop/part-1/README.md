@@ -14,6 +14,8 @@ the micro:bit.
 
 A good summary of the micro:bit features: https://microbit.org/guide/features/
 
+![micro:bit](https://microbit.org/images/microbit-hardware-access.jpg)
+
 
 ## Access the REPL
 
