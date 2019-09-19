@@ -83,7 +83,7 @@ the datasheet.
 ```
 >>> from microbit import i2c, display, Image
 >>> i2c.write(???)
->>> result = i2c.read(???)
+>>> read_data = i2c.read(???)
 >>> if read_data[0] == 0x5A:
 >>>     display.show(Image.HAPPY)
 ```
@@ -97,3 +97,5 @@ after the write operation without interruption (i.e. without a stop bit).
 
 - Can you find a way in the I2C documentation to not send a stop bit before
   the read operation?
+
+Are you getting a letter? What's the hex value of that letter?
