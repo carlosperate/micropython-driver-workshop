@@ -1,4 +1,4 @@
-# Part 1
+# Part 1 - Getting to know the micro:bit
 
 Let's start by getting familiar with the micro:bit and the REPL.
 

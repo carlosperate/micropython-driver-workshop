@@ -1,4 +1,4 @@
-# Part 2
+# Part 2 - Exploring I2C with the REPL
 
 Now that we are a bit more familiar with the micro:bit and the REPL let's
 explore the I2C interface:

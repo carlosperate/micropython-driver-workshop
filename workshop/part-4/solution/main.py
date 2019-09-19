@@ -24,8 +24,8 @@ def read_x():
     result = i2c.read(MMA8653_ADDR, 1)
     # Unpack it as a signed char
     result = ustruct.unpack('b', result)[0]
-    # Scale it to 0 to +/- 2000
-    return result * 16
+    # Scale it to 0 to +/- 2000 and set orientation
+    return result * 16 * -1
 
 
 def read_y():
@@ -33,8 +33,8 @@ def read_y():
     result = i2c.read(MMA8653_ADDR, 1)
     # Unpack it as a signed char
     result = ustruct.unpack('b', result)[0]
-    # Scale it to 0 to +/- 2000
-    return result * 16
+    # Scale it to 0 to +/- 2000 and set orientation
+    return result * 16 * -1
 
 
 def read_z():
@@ -55,4 +55,4 @@ while True:
     print("[X:{}] [Y:{}] [Z:{}]".format(x, y, z))
     print("[X:{}] [Y:{}] [Z:{}]\n".format(
         accelerometer.get_x(), accelerometer.get_y(), accelerometer.get_z()))
-    sleep(100)
+    sleep(200)

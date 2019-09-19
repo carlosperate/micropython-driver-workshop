@@ -1,4 +1,4 @@
-# Part 4
+# Part 4 - Processing the acceleration data
 
 To understand why the values read from Part 3 are different, let's read the
 MicroPython accelerometer class documentation:
@@ -54,11 +54,16 @@ value is 255 and that represents 2000mg.
     - > The measured acceleration data is stored in the following registers as
       > 2’s complement...
     - Remember that the range is ±2000 mg
+- The direction of some of these forces might not be correct yet?
+  The fix might be simple, but can you think why it's needed?
+    - Have a look at diagrams in section 5.6 "Orientation detection" and the
+      placement of the accelerometer in the micro:bit board.
+    - Which way is up/down or left/right?
 
-### Tip
+
+### Tips
 
 - The ustruct module allows you to pack and unpack in multiple data formats,
   like signed and unsigned chars (bytes)
     - https://docs.python.org/3.5/library/struct.html
     - https://docs.python.org/3.5/library/struct.html#format-characters
-

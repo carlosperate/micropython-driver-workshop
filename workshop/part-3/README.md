@@ -1,4 +1,4 @@
-# Part 3
+# Part 3 - Reading data from the accelerometer
 
 For this exercise we will read some acceleration data from the MMA8653FC.
 
