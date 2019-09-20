@@ -43,7 +43,7 @@ MMA8653_WHOAMI_VALUE = ??
 def check_device():
     i2c.write(MMA8653_ADDR, bytes([MMA8653_WHOAMI]), repeat=True)
     read_data = i2c.read(MMA8653_ADDR, 1)
-    if read_data[0] != MMA8653_WHOAMI_VALUE:
+    if read_data[0] == MMA8653_WHOAMI_VALUE:
         # What do we do?
         pass
 
