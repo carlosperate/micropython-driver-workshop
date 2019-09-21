@@ -19,6 +19,9 @@ A good summary of the micro:bit features: https://microbit.org/guide/features/
 
 ## Access the REPL
 
+If any of these steps fail, consult the [troubleshooting section from the
+repository README](../../README.md#troubleshooting).
+
 ### With Mu
 
 - Select the micro:bit mode
@@ -31,15 +34,6 @@ If you are using the online editor with **Chrome**:
 - Click the "Open Serial" button
 - Select the micro:bit device
 
-If the micro:bit doesn't appear in the WebUSB connection pop-up, you might have
-to upgrade the micro:bit firmware. Follow the instructions in this link to do
-so: https://microbit.org/guide/firmware/
-
-Updating the firmware is not necessary, you can still access the REPL with any
-serial terminal, and programme the micro:bit by downloading the hex file from
-the Online Editor and copying it into the MICROBIT drive.
-Nevertheless using WebUSB is a lot more convenient and quicker.
-
 
 ## Exploring with the REPL
 
@@ -51,6 +45,8 @@ Type "help()" for more information.
 >>> help()
 ```
 
+Make sure to read the the `help()` output, it is tremendously useful!
+
 When you are ready, try simple commands:
 
 ```
@@ -58,12 +54,12 @@ When you are ready, try simple commands:
 >>> microbit.display.scroll('Hello world!')
 ```
 
-Remember that you can use TAB for auto-completion, `dir()`, and
-`help('modules')` to explore.
+Remember that you can use TAB for auto-completion, `dir()` (e.g. `dir(display)`)
+and `help('modules')` to explore.
 
 Try the following things:
 - Scroll a text message on the display
 - Show an Image on the display
 - Show an Image on the display when button A is pressed
-- Read an X, Y, or Z accelerometer value
-- Show an Image on the display when the last gesture was `shake`
+- Read an X, Y, or Z accelerometer values
+- Show an Image on the display when the last gesture **was** `shake`
