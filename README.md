@@ -17,6 +17,10 @@ online as well.
 
 The `workshop` folder contains the instructions and files for the workshop.
 
+The easiest way to follow the workshop is to read the contents of this
+repository directly from GitHub, so there is no need to clone it in your
+computer.
+
 
 ## Requirements
 
@@ -69,9 +73,9 @@ workshop, it is here only for additional information.
 
 ## Troubleshooting
 
-## Mu
+### Mu
 
-### REPL doesn't work
+#### REPL doesn't work
 
 If you are on Windows 7 or 8 you will need to install this driver:
 https://os.mbed.com/docs/mbed-os/v5.13/tutorials/windows-serial-driver.html
@@ -79,13 +83,13 @@ https://os.mbed.com/docs/mbed-os/v5.13/tutorials/windows-serial-driver.html
 If you are on Linux, you might have to add yourself to the correct permissions
 group (usually the `dialout` or `uucp` groups).
 
-### Cannot flash the micro:bit
+#### Cannot flash the micro:bit
 
 If you are on Linux, make sure the MICROBIT drive is mounter. If your
 distribution doesn't mount the drive automatically you might have to manually
 mount it.
 
-## Online Python Editor
+### Online Python Editor
 
 WebUSB is not is necessary to complete the workshop, is a lot more convenient
 and quicker.
@@ -94,17 +98,17 @@ You can still access the REPL with any serial terminal in your computer and
 program the micro:bit by downloading the hex file from the Online Editor and
 copying it into the MICROBIT drive.
 
-### It says WebUSB is not supported
+#### It says WebUSB is not supported
 
 You will need to use Chrome (or a Chromium based browser) for WebUSB support.
 
-### When I try to connect to the device it gives me an error
+#### When I try to connect to the device it gives me an error
 
 Make sure the micro:bit firmware is at version 0249 or newer. Follow the
 instructions from this page to update the micro:bit firmware:
 https://microbit.org/guide/firmware/
 
-### It still cannot connect via WebUSB
+#### It still cannot connect via WebUSB
 
 Follow the troubleshooting section from this micro:bit support article:
 https://support.microbit.org/support/solutions/articles/19000084059-beta-testing-web-usb#troubleShooting

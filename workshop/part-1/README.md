@@ -3,6 +3,12 @@
 Let's start by getting familiar with the micro:bit and the REPL.
 
 
+## Documentation You'll Need
+
+- https://microbit-micropython.readthedocs.io/en/v1.0.1/tutorials/images.html
+- https://microbit-micropython.readthedocs.io/en/v1.0.1/accelerometer.html
+
+
 ## Quick Start
 
 Connect the micro:bit to your computer using a Micro-B USB cable.

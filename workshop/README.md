@@ -1,7 +1,13 @@
 # Intro
 
-The workshop is grouped in sections, each contained in a folder within this
+The workshop is grouped in parts, each contained in a folder within this
 directory.
+
+Each Part has a section at the top indicating the documentation you'll need to
+complete the exercises. There might also be a Troubleshooting section at the
+end of the page.
+
+Start with Part 1 and continue to the next parts as you progress.
 
 - [Part 1: Getting to know the micro:bit](part-1)
 - [Part 2: Exploring I2C with the REPL](part-2)
