@@ -7,7 +7,7 @@ explore the I2C interface.
 ## Documentation You'll Need
 
 - https://microbit-micropython.readthedocs.io/en/v1.0.1/i2c.html
-- MMA8653FC datasheet section 5.8 "Serial I2C Interface"
+- MMA8653FC datasheet, section 5.8 "Serial I2C Interface"
 
 
 ## Scanning I2C Devices
@@ -63,7 +63,7 @@ the tables from section 5.8 "Serial I2C Interface".
       https://www.binaryhexconverter.com/decimal-to-hex-converter
 
 
-## Talking with the accelerometer
+## Talking With The Accelerometer
 
 Okay, so let's try to read something from the accelerometer!
 
@@ -116,7 +116,7 @@ bit, and instead sending a repeat start bit).
 
 ![I2C repeated start](images/i2c-repeated-start.png)
 
-- Can you find a way in the I2C documentation to not send a stop bit before
+- Can you find a way in the I2C documentation to do a repeat start bit before
   the read operation?
 
 ### Are you getting a letter?

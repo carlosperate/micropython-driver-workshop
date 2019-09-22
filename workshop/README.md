@@ -1,4 +1,4 @@
-# Intro
+# Workshop Intro
 
 The workshop is grouped in parts, each contained in a folder within this
 directory.

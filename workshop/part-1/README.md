@@ -23,7 +23,7 @@ A good summary of the micro:bit features: https://microbit.org/guide/features/
 ![micro:bit](https://microbit.org/images/microbit-hardware-access.jpg)
 
 
-## Access the REPL
+## Access The REPL
 
 If any of these steps fail, consult the [troubleshooting section from the
 repository README](../../README.md#troubleshooting).
@@ -41,7 +41,7 @@ If you are using the online editor with **Chrome**:
 - Select the micro:bit device
 
 
-## Exploring with the REPL
+## Exploring With The REPL
 
 In the REPL type `help()` and see what it does:
 

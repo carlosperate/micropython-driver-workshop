@@ -1,25 +1,30 @@
 # MicroPython Drivers Workshop
 
-Welcome!
-
-This repository contains all you need for the Hardware Drivers with MicroPython
-workshop.
+Welcome to the MicroPython Drivers Workshop!
 
 
-## How to use this repository
+## Table of Contents
+
+- [🚀 How to use this repository](#how-to-use-this-repository)
+- [📌 Requirements](#requirements)
+- [📚 Documentation You Will Need](#documentation-you-will-need)
+- [📑 Datasheets](#datasheets)
+- [🔨 Troubleshooting](#troubleshooting)
+
+
+## How To Use This Repository
 
 If you are running the workshop in person there was an introductory presentation
 explaining basic concepts and the general workflow for embedded development.
 
-The introductory presentation Power Point is located in the root of this
-repository. The PDF version is rendered within GitHub, so you can view it
-online as well.
+The presentation Power Point can be found at the root of this repository.
+There is also a PDF version that can rendered within GitHub, so you can
+[view it online](HW-Drivers-Workshop-presentation.pdf).
 
 The `workshop` folder contains the instructions and files for the workshop.
 
-The easiest way to follow the workshop is to read the contents of this
-repository directly from GitHub, so there is no need to clone it in your
-computer.
+The easiest way to follow the workshop is to read the contents directly from
+GitHub, so there is no need to clone it in your computer.
 
 
 ## Requirements
@@ -40,7 +45,7 @@ You will need:
 - A copy of the MMA8653FC datasheet (linked below)
 
 
-## Documentation you will need
+## Documentation You Will Need
 
 The micro:bit MicroPython documentation can be found here:
 - https://microbit-micropython.readthedocs.io/en/v1.0.1/index.html
@@ -66,9 +71,12 @@ MicroPython upstream documentation:
 **Note**: You will NOT need to look into this datasheet to complete the
 workshop, it is here only for additional information.
 
-- Product Page: https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51822
-- Product Specification: https://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf
-- nRF51 Series Reference Manual (datasheet): https://infocenter.nordicsemi.com/pdf/nRF51_RM_v3.0.pdf
+- Product Page:
+  https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51822
+- Product Specification:
+  https://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf
+- nRF51 Series Reference Manual (datasheet):
+  https://infocenter.nordicsemi.com/pdf/nRF51_RM_v3.0.pdf
 
 
 ## Troubleshooting
