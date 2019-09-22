@@ -5,14 +5,14 @@ Welcome to the MicroPython Drivers Workshop!
 
 ## Table of Contents
 
-- [🚀 How to use this repository](#how-to-use-this-repository)
-- [📌 Requirements](#requirements)
-- [📚 Documentation You Will Need](#documentation-you-will-need)
-- [📑 Datasheets](#datasheets)
-- [🔨 Troubleshooting](#troubleshooting)
+- [🚀 How to use this repository](#-how-to-use-this-repository)
+- [📌 Requirements](#-requirements)
+- [📚 Documentation You Will Need](#-documentation-you-will-need)
+- [📑 Datasheets](#-datasheets)
+- [🔨 Troubleshooting](#-troubleshooting)
 
 
-## How To Use This Repository
+## 🚀 How To Use This Repository
 
 If you are running the workshop in person there was an introductory presentation
 explaining basic concepts and the general workflow for embedded development.
@@ -27,7 +27,7 @@ The easiest way to follow the workshop is to read the contents directly from
 GitHub, so there is no need to clone it in your computer.
 
 
-## Requirements
+## 📌 Requirements
 
 You will need:
 
@@ -45,7 +45,7 @@ You will need:
 - A copy of the MMA8653FC datasheet (linked below)
 
 
-## Documentation You Will Need
+## 📚 Documentation You Will Need
 
 The micro:bit MicroPython documentation can be found here:
 - https://microbit-micropython.readthedocs.io/en/v1.0.1/index.html
@@ -58,7 +58,7 @@ MicroPython upstream documentation:
 - http://docs.micropython.org/en/v1.9.2/pyboard/reference/index.html
 
 
-## Datasheets
+## 📑 Datasheets
 
 ### MMA8653FC Accelerometer
 
@@ -79,7 +79,7 @@ workshop, it is here only for additional information.
   https://infocenter.nordicsemi.com/pdf/nRF51_RM_v3.0.pdf
 
 
-## Troubleshooting
+## 🔨 Troubleshooting
 
 ### Mu
 
