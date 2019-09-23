@@ -52,7 +52,12 @@ format used by all the methods in the MicroPython I2C class.
 
 ## MMA8653FC I2C Address
 
-The I2C address of the accelerometer can be found in the datasheet, in one of
+The BBC micro:bit has two I2C devices on board, one is the MAG3110 magnetometer,
+the other is the MMA8653FC accelerometer.
+
+For this workshop we will write a Python driver for the MMA8653FC accelerometer.
+
+The I2C address of the accelerometer can be found in its datasheet, in one of
 the tables from section 5.8 "Serial I2C Interface".
 
 - Does the number listed in the datasheet match one of the values returned by

@@ -2,8 +2,11 @@
 
 Welcome to the MicroPython Drivers Workshop!
 
+This workshop will walk you through the steps to create a MicroPython driver for
+the MMA8653FC accelerometer built-in into the BBC micro:bit.
 
-## Table of Contents
+
+## 🗂️ Table of Contents
 
 - [🚀 How to use this repository](#-how-to-use-this-repository)
 - [📌 Requirements](#-requirements)
