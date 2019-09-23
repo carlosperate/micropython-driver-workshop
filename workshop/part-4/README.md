@@ -11,8 +11,8 @@ https://microbit-micropython.readthedocs.io/en/latest/accelerometer.html
 
 So we should expect values between 0 and 2000, right?
 
-- When you rotate the micro:bit (without shaking it angrily!) what kind of
-maximum values do you see?
+- When you carefully rotate the micro:bit (no shaking it angrily!) with this
+  code what kind of maximum values do you see?
 
 ```python
 from microbit import accelerometer
@@ -23,11 +23,10 @@ while True:
 
 - Are the max values you see around 1000mg?
 - How many milli-g does the earth gravitation pull generate?
-    - That's right 1g or 1000mg! So the accelerometer is constantly reading the
-      earth gravity as well
+    - That's right gravity is 1g or 1000mg! So the accelerometer is constantly
+      reading the earth gravity as well
 - Now shake the micro:bit vigorously, what maximum values do you see?
     - We should now be seeing values closer to the 2000mg theoretical maximum
-
 
 Then why are we not reading those values from the accelerometer?
 
@@ -41,8 +40,9 @@ while True:
         accelerometer.get_x(), accelerometer.get_y(), accelerometer.get_z()))
 ```
 
-Because the values stored in the registers represent a value within a range from
-0 to 2g (as this is the default max range configured in the MMA8653FC part).
+This is because the values stored in the registers represent a value within a
+range from 0 to 2g (as this is the default maximum range configured in the
+MMA8653FC part).
 
 So, assuming you are only reading the MSB register (8-bits), the maximum
 register value will represent 2000mg.
@@ -53,9 +53,9 @@ register value will represent 2000mg.
 - The answer is in section 5.2 "8-bit or 10-bit data"
     - > The measured acceleration data is stored in the following registers as
       > 2’s complement...
-    - Remember that the range is ±2000 mg
-- The direction of some of these forces might not be correct yet?
-  The fix might be simple, but can you think why it's needed?
+    - So remember that the range is is not 0 to 2000 mg, but ±2000 mg
+- The direction (positive or negative) of some of these forces might not be
+  correct yet? The fix might be simple, but can you think why it's needed?
     - Have a look at diagrams in section 5.6 "Orientation detection" and the
       placement of the accelerometer in the micro:bit board.
     - Which way is up/down or left/right?
@@ -63,7 +63,7 @@ register value will represent 2000mg.
 
 ### Tips
 
-- The ustruct module allows you to pack and unpack in multiple data formats,
+- The `ustruct` module allows you to pack and unpack in multiple data formats,
   like signed and unsigned chars (bytes)
     - https://docs.python.org/3.5/library/struct.html
     - https://docs.python.org/3.5/library/struct.html#format-characters
